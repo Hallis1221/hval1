@@ -1,6 +1,6 @@
 # Avstandsbasert Varslingssystem
 
-Dette prosjektet innebærer utvikling av et varslingssystem som bruker ultralydsensorer til å måle avstanden til objekter og gir lydsignalvarsel basert på denne avstanden. Systemet er utformet for å assistere i forskjellige praktiske applikasjoner, inkludert hjelpemidler for synshemmede, sikkerhetssystemer, eller automatiske navigasjonssystemer for robotikk.
+Dette prosjektet innebærer utvikling av et varslingssystem som bruker ultralydsensorer til å måle avstanden til objekter og gir lydsignalvarsel basert på denne avstanden. Systemet er utformet for å assistere i forskjellige praktiske applikasjoner slik som automatiske navigasjonssystemer for robotikk.
 
 ## Funksjoner
 
@@ -36,12 +36,6 @@ Kodeeksemplet inneholder funksjoner for å måle avstand, detektere stasjonære 
 - **`setup()`**: Initialiserer pins og starter seriell kommunikasjon.
 - **`loop()`**: Utfører kontinuerlige avstandsmålinger, oppdaterer buzzerens oppførsel basert på avstand, og beregner hastigheten til bevegelige objekter.
 - **`checkIfStationary(long currentDistance)`**: Sjekker om et objekt er stasjonært basert på avstandsmålinger.
-
-## Bruksområder
-
-- **Hjelpemidler for synshemmede**: Kan brukes som en del av en navigasjonshjelp for å varsle brukeren om nærliggende objekter.
-- **Automatisk Navigasjonssystemer for Robotikk**: Hjelper roboter med å unngå hindringer og navigere i omgivelsene.
-- **Sikkerhetssystemer**: Kan fungere som et enkelt inntrengingsvarsel i sikkerhetssensitive områder.
 
 ## Utvikling og Bidrag
 
